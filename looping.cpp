@@ -39,7 +39,18 @@ int main()
        cout << "jumlah perulangan = " << perulanganWhile << endl;
        cout << "nilai n terakhir = " << n << endl;
 
-      
+      cout << "perulangan do while" << endl;
+         srand(time(0));
+       cout << "nilai awal n = " << n << endl;
+       do
+       {
+        cout << "nilai n = " << n << endl;
+        n = rand() % 10;
+        perulanganDo++;
+       }
+         while (n > 0);
+       cout << "jumlah perulangan = " << perulanganDo << endl;
+       cout << "nilai n terakhir = " << n << endl;
        
 }
 
